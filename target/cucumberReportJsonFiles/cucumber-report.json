@@ -1,0 +1,49 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "2020-01-01 isn\u0027t Friday",
+        "description": "",
+        "id": "is-it-friday-yet?;2020-01-01-isn-t-friday",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1860541,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "today is Year 2020, Month 1, Day 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2020",
+                  "offset": 14
+                },
+                {
+                  "val": "1",
+                  "offset": 26
+                },
+                {
+                  "val": "1",
+                  "offset": 33
+                }
+              ],
+              "location": "Stepdefs.today_is_Year_Month_Day(Integer,Integer,Integer)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Is it Friday yet?",
+    "description": "  Everybody wants to know when it\u0027s Friday",
+    "id": "is-it-friday-yet?",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/open_customer.feature",
+    "tags": []
+  }
+]
