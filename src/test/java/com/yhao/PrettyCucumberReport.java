@@ -21,14 +21,14 @@ public class PrettyCucumberReport {
 
     String buildNumber="1";
     String projectName="cucumberProject";
-    boolean runWithJenkins = false;
-    boolean parallelTesting = false;
+//    boolean runWithJenkins = false;
+//    boolean parallelTesting = false;
 
     Configuration configuration = new Configuration(reportOutputDirectory,projectName);
 
     // optional configuration
-    configuration.setParallelTesting(parallelTesting);
-    configuration.setRunWithJenkins(runWithJenkins);
+//    configuration.setParallelTesting(parallelTesting);
+//    configuration.setRunWithJenkins(runWithJenkins);
     configuration.setBuildNumber(buildNumber);
     // optionally add metadata on main page
     configuration.addClassifications("Platform","Mac");
